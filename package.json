@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/multer": "^3.0.2",
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^4.3.5",
+    "jasmine-core": "^5.1.1",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-webpack": "^5.0.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "DarkRP Back End",
+  "main": "karma.conf.js",
+  "scripts": {
+    "server": "tsc && node compiled/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
